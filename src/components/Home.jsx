@@ -276,7 +276,7 @@ const Home = ( ) => {
                         <Text>
                         {noResultsMessage}
                         </Text>
-                    <Image src='./src/assets/notfound.png'
+                    <Image src='/assets/notfound.png'
                     alt='Not Found'
                     boxSize='150px'
                     objectFit="cover"/>
