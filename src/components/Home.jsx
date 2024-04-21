@@ -123,7 +123,7 @@ const Home = ( ) => {
             <Flex
                  className="column-a bg-cover bg-center bg-no-repeat animate-backgroundAnimation"
                  style={{
-                     backgroundImage: "url('./src/assets/bg.jpg')",
+                     backgroundImage: "url('/assets/bg.jpg')",
                      animation: "backgroundAnimation 10s linear infinite",
                  }}
                 flex={1} // Proportional space for Column A
@@ -151,7 +151,7 @@ const Home = ( ) => {
                 <Box>
                     <Flex align="center">
                         <img
-                            src="./src/assets/github_avatarm.jpg"
+                            src="/assets/github_avatarm.jpg"
                             alt="github_avatar"
                             style={{ width: isSmallScreen ? '40px' : '100px',
                             height: isSmallScreen ? '50px' : '100px', borderRadius: '50%' }}
@@ -173,7 +173,7 @@ const Home = ( ) => {
         {/* GitHub icon */}
         <Box mr={2}>
             <a href="https://github.com/7-lynxx" target="_blank" rel="noopener noreferrer">
-                <Image src="./src/assets/github-white-mark.png" alt="GitHub" width="24px" height="24px" />
+                <Image src="/assets/github-white-mark.png" alt="GitHub" width="24px" height="24px" />
             </a>
         </Box>
         {/* GitHub link */}
