@@ -32,7 +32,7 @@ const ErrorBoundary = ({ children }) => {
             flexDirection="column"
             justifyContent="center" // Vertically center the content
             alignItems="center" // Horizontally center the content
-            backgroundImage="url('./src/assets/images/error.jpg')" // Specify the path to your image
+            backgroundImage="url('./src/assets/error.jpg')" // Specify the path to your image
             backgroundSize="cover" // Make the image cover the entire Box
             backgroundPosition="center" // Center the image
             bgRepeat="no-repeat" // Don't repeat the image
