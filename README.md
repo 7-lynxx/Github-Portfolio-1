@@ -24,7 +24,7 @@ Modals are included to create new repostiories and update the newly created repo
 
  [Go to App](https://github-portfolio-1.vercel.app/)
 
- ##Reflection
+ ## Reflection
 
  This was a week long project built for my second semester Altschool examination. The goals of the project included implementing technologies learned up until this point and familiarizing myself with documentation for new features.
 
