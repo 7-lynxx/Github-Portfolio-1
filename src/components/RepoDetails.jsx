@@ -84,7 +84,7 @@ const RepoDetails = () => {
             <Text>Stars: {repo.stargazers_count}</Text>
             <Text>Forks: {repo.forks_count}</Text>
             <Text>
-                {/* Owner: Demo-Owner */}
+                Owner: 
 
                 {repo.owner?repo.owner.login : "Unknown"} 
                 </Text>
